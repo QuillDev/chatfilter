@@ -1,0 +1,10 @@
+name: ChatFilter
+version: '${project.version}'
+main: com.minehut.chatfilter.ChatFilter
+api-version: 1.19
+
+commands:
+  reload:
+    description: "Reloads blocked words from the file."
+    permission: "minehut.rank.helper"
+
